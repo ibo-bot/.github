@@ -9,7 +9,7 @@ on:
 jobs:
   github-metrics:
 #     runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: vps
     permissions:
       contents: write
     steps:
