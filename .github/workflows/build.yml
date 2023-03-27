@@ -8,8 +8,8 @@ on:
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
-#     runs-on: ubuntu-latest
-    runs-on: vps
+    runs-on: ubuntu-latest
+#     runs-on: vps
     permissions:
       contents: write
     steps:
